@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://caboose.proxy.rlwy.net:56083/railway
+    username: postgres
+    password: qUXMJpLvWtHHrkZXSRVEXbWWLWyBFAEj
+    jpa:
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+spring.datasource.driver-class-name: org.postgresql.Driver
+spring.jpa.hibernate.ddl-auto: update
